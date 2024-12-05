@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NardStore - Tu tienda de productos afiliados</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">NardStore</a>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Bienvenido a NardStore</h1>
+           
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Buscar productos...">
+                <button id="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </section>
+        <section id="products">
+            <h2>Nuestros Productos</h2>
+            <div class="product-grid" id="product-grid">
+                <!-- Los productos se cargarán dinámicamente aquí -->
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Sobre NardStore</h2>
+            <p>En NardStore, transformamos tu vida con productos de calidad diseñados para inspirar y potenciar tu día a día. Explora nuestra exclusiva colección, cuidadosamente seleccionada para ofrecerte lo mejor en desarrollo personal, fitness, nutrición ¡y mucho más! Porque tu bienestar y crecimiento son nuestra prioridad.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Síguenos en nuestras redes sociales:</p>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 NardStore. Todos los derechos reservados.</p>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <p id="modal-price" class="price"></p>
+            <div id="modal-reviews"></div>
+            <a id="modal-link" href="#" target="_blank" class="btn">Ver producto</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
