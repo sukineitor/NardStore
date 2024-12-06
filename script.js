@@ -1,309 +1,304 @@
 const products = [
     {
-        name: "Ebook Postres en vasos",
-        description: "Deliciosas recetas de postres en vasos fáciles de preparar.",
+        name: "Ebook Desserts in Cups",
+        description: "Delicious dessert recipes in cups that are easy to prepare.",
         price: "$5.00",
         image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
         link: "https://go.hotmart.com/F96884962F?ap=7fe9",
-        category: "Cocina",
+        category: "Cooking",
         reviews: [
-            { rating: 5, comment: "¡Excelentes recetas! Fáciles de seguir y deliciosas." }
-        
+            { rating: 5, comment: "Excellent recipes! Easy to follow and delicious." }
         ]
     },
     {
-        name: "Desarrollo Personal",
-        description: "Curso completo para mejorar tus habilidades y alcanzar tus metas.",
+        name: "Personal Development",
+        description: "Complete course to improve your skills and achieve your goals.",
         price: "$7.00",
         image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
         link: "https://go.hotmart.com/Q96901756H?dp=1",
-        category: "Desarrollo Personal",
+        category: "Personal Development",
         reviews: [
-            { rating: 5, comment: "Este curso cambió mi vida. Altamente recomendado." },
-            { rating: 4, comment: "Muy buen contenido y ejercicios prácticos." }
+            { rating: 5, comment: "This course changed my life. Highly recommended." },
+            { rating: 4, comment: "Very good content and practical exercises." }
         ]
     },
     {
-        name: "Desarrollo Estoico",
-        description: "Aprende los principios del estoicismo y cómo aplicarlos en tu vida diaria.",
+        name: "Stoic Development",
+        description: "Learn the principles of Stoicism and how to apply them in your daily life.",
         price: "$4.58",
         image: "https://images.unsplash.com/photo-1519791883288-dc8bd696e667?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
         link: "https://go.hotmart.com/E96901806J?dp=1",
-        category: "Desarrollo Personal",
+        category: "Personal Development",
         reviews: [
-            { rating: 5, comment: "Una perspectiva refrescante sobre la filosofía estoica." },
-            { rating: 4, comment: "Buenas técnicas para manejar el estrés y las emociones." }
+            { rating: 5, comment: "A refreshing perspective on Stoic philosophy." },
+            { rating: 4, comment: "Good techniques for managing stress and emotions." }
         ]
     },
-
     {
-        name: "Curso de Mindfulness",
-        description: "Aprende a vivir en el presente y reducir el estrés con mindfulness.",
+        name: "Mindfulness Course",
+        description: "Learn to live in the present and reduce stress with mindfulness.",
         price: "$19.75",
         image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
         link: "https://go.hotmart.com/Y96901879J?dp=1",
-        category: "Bienestar",
+        category: "Wellness",
         reviews: [
-            { rating: 5, comment: "Este curso ha transformado mi forma de ver la vida." },
-            { rating: 4, comment: "Muy útil para manejar la ansiedad y el estrés diario." }
+            { rating: 5, comment: "This course has transformed my view of life." },
+            { rating: 4, comment: "Very useful for managing daily anxiety and stress." }
         ]
     },
-
     {
-        name: "Productividad Legendaria",
-        description: "Maximiza tu productividad y alcanza tus metas más rápido.",
+        name: "Legendary Productivity",
+        description: "Maximize your productivity and reach your goals faster.",
         price: "$16.17",
         image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
         link: "https://go.hotmart.com/X96901930W",
-        category: "Desarrollo Personal",
+        category: "Personal Development",
         reviews: [
-            { rating: 5, comment: "Este curso ha revolucionado mi forma de trabajar." },
-            { rating: 4, comment: "Excelentes técnicas para mejorar la productividad." }
+            { rating: 5, comment: "This course has revolutionized my way of working." },
+            { rating: 4, comment: "Excellent techniques to improve productivity." }
         ]
     },
     {
-        name: "Guía Paso a Paso para Montar tu Negocio de Catering Industrial",
-        description: "Aprende a iniciar y gestionar un negocio exitoso de catering industrial.",
+        name: "Step-by-Step Guide to Starting Your Industrial Catering Business",
+        description: "Learn how to start and manage a successful industrial catering business.",
         price: "65.83",
         image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
         link: "https://go.hotmart.com/M96901939V?dp=1",
-        category: "Negocios",
+        category: "Business",
         reviews: [
-            { rating: 5, comment: "Guía completa y detallada. Muy útil para emprendedores." },
-            { rating: 4, comment: "Buenas ideas y consejos prácticos para el negocio." }
+            { rating: 5, comment: "Complete and detailed guide. Very useful for entrepreneurs." },
+            { rating: 4, comment: "Good ideas and practical business advice." }
         ]
     },
     {
-        name: "Marketing Digital",
-        description: "Domina las estrategias de marketing digital para hacer crecer tu negocio.",
+        name: "Digital Marketing",
+        description: "Master digital marketing strategies to grow your business.",
         price: "$6.58",
         image: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
         link: "https://go.hotmart.com/F96901990L?dp=1",
         category: "Marketing",
         reviews: [
-            { rating: 5, comment: "Curso muy completo y actualizado. Altamente recomendado." },
-            { rating: 4, comment: "Excelente contenido sobre SEO y redes sociales." }
+            { rating: 5, comment: "Very complete and up-to-date course. Highly recommended." },
+            { rating: 4, comment: "Excellent content on SEO and social media." }
         ]
     },
     {
-        name: "Finanzas Personales",
-        description: "Aprende a manejar tus finanzas y alcanzar la libertad financiera.",
+        name: "Personal Finance",
+        description: "Learn how to manage your finances and achieve financial freedom.",
         price: "$3.33",
         image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
         link: "https://go.hotmart.com/K96902015T?dp=1",
-        category: "Finanzas",
+        category: "Finance",
         reviews: [
-            { rating: 5, comment: "Este curso cambió mi relación con el dinero." },
-            { rating: 4, comment: "Muy útil para aprender a ahorrar e invertir." }
+            { rating: 5, comment: "This course changed my relationship with money." },
+            { rating: 4, comment: "Very useful for learning to save and invest." }
         ]
     },
     {
-        name: "Manual Cejas Radiantes",
-        description: "Aprende técnicas profesionales para tener cejas perfectas.",
+        name: "Radiant Eyebrows Manual",
+        description: "Learn professional techniques for perfect eyebrows.",
         price: "$5.00",
         image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
         link: "https://go.hotmart.com/X96902033K?dp=1",
-        category: "Belleza",
+        category: "Beauty",
         reviews: [
-            { rating: 5, comment: "Excelentes técnicas y fáciles de seguir." },
-            { rating: 4, comment: "Muy útil para mejorar el aspecto de las cejas." }
+            { rating: 5, comment: "Excellent techniques and easy to follow." },
+            { rating: 4, comment: "Very useful for improving the look of eyebrows." }
         ]
     },
     {
-        name: "Método cejas PRO - 7D",
-        description: "Domina el arte del diseño de cejas en 7 días.",
+        name: "PRO Eyebrows Method - 7D",
+        description: "Master the art of eyebrow design in 7 days.",
         price: "$115.17",
         image: "https://static-media.hotmart.com/PDiAmYj6T7jA7T_zngjiW5OBAS0=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/878de3fc-e830-4bfd-94c2-a598b606ed8e/Portadahotmar600x600px1.png?w=920",
         link: "https://go.hotmart.com/Y96902046E?dp=1",
-        category: "Belleza",
+        category: "Beauty",
         reviews: [
-            { rating: 5, comment: "Curso muy completo y profesional." },
-            { rating: 4, comment: "Aprendí mucho en poco tiempo. Recomendado." }
+            { rating: 5, comment: "Very complete and professional course." },
+            { rating: 4, comment: "I learned a lot in a short time. Recommended." }
         ]
     },
     {
-        name: "Método cejas PRO - 7D Oferta CUPON Lanzamiento",
-        description: "Oferta especial: Domina el arte del diseño de cejas en 7 días.",
+        name: "PRO Eyebrows Method - 7D Launch Coupon Offer",
+        description: "Special offer: Master the art of eyebrow design in 7 days.",
         price: "$115.17",
         image: "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
         link: "https://go.hotmart.com/Y96902046E?ap=063f",
-        category: "Belleza",
+        category: "Beauty",
         reviews: [
-            { rating: 5, comment: "Excelente oferta. El curso vale cada centavo." },
-            { rating: 4, comment: "Muy buen contenido a un precio accesible." }
+            { rating: 5, comment: "Excellent offer. The course is worth every penny." },
+            { rating: 4, comment: "Very good content at an affordable price." }
         ]
     },
-
-
     {
-        name: "Comidas Fitness",
-        description: "Recetas saludables y deliciosas para mantener tu forma física.",
+        name: "Fitness Meals",
+        description: "Healthy and delicious recipes to maintain your physical shape.",
         price: "$12.25",
         image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
         link: "https://go.hotmart.com/P96903251P?dp=1",
-        category: "Salud y Fitness",
+        category: "Health and Fitness",
         reviews: [
-            { rating: 5, comment: "Recetas fáciles y muy sabrosas. Altamente recomendado." },
-            { rating: 4, comment: "Buena variedad de opciones para una dieta equilibrada." }
+            { rating: 5, comment: "Easy and very tasty recipes. Highly recommended." },
+            { rating: 4, comment: "Good variety of options for a balanced diet." }
         ]
     },
     {
-        name: "Fitness para Principiantes",
-        description: "Guía completa para comenzar tu viaje fitness desde cero.",
+        name: "Fitness for Beginners",
+        description: "Complete guide to start your fitness journey from scratch.",
         price: "$54.00",
         image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
         link: "https://go.hotmart.com/I96903262P?dp=1",
-        category: "Salud y Fitness",
+        category: "Health and Fitness",
         reviews: [
-            { rating: 5, comment: "Perfecto para quienes recién comienzan. Muy motivador." },
-            { rating: 4, comment: "Buenas rutinas y consejos para novatos en el fitness." }
+            { rating: 5, comment: "This course helped me get started with fitness." },
+            { rating: 4, comment: "Clear instructions and motivating." }
         ]
     },
+
     {
-        name: "10 Recetas Fitness",
-        description: "Colección de 10 recetas fitness fáciles y deliciosas.",
-        price: "$3.50",
-        image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
-        link: "https://go.hotmart.com/J96903270L?dp=1",
-        category: "Salud y Fitness",
-        reviews: [
-            { rating: 5, comment: "Recetas rápidas y sabrosas. Perfectas para el día a día." },
-            { rating: 4, comment: "Buena variedad de opciones saludables." }
-        ]
-    },
-    {
-        name: "Fitness para Madres Ocupadas",
-        description: "Programa de ejercicios y nutrición para madres con poco tiempo libre.",
-        price: "$3.40",
-        image: "https://static-media.hotmart.com/HF-cAKA8_mAzNtsRRWFWpQWJi3A=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/853ddf01-fe6a-49c7-aa7f-e38136f9ea3d/FITNESPARAMADRESOCUPADAS1.png?w=920",
-        link: "https://go.hotmart.com/C96903273V?dp=1",
-        category: "Salud y Fitness",
-        reviews: [
-            { rating: 5, comment: "Perfecto para madres que quieren mantenerse en forma." },
-            { rating: 4, comment: "Rutinas cortas pero efectivas. Muy práctico." }
-        ]
-    },
-    {
-        name: "Introducción a la Esferodinamia para Adultos",
-        description: "Aprende los fundamentos de la esferodinamia para mejorar tu salud.",
-        price: "$67.95",
-        image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
-        link: "https://go.hotmart.com/G96903280D?dp=1",
-        category: "Salud y Fitness",
-        reviews: [
-            { rating: 5, comment: "Excelente introducción a la esferodinamia." },
-            { rating: 4, comment: "Muy útil para mejorar la postura y flexibilidad." }
-        ]
-    },
-    {
-        name: "La dieta de la luna",
-        description: "Descubre cómo sincronizar tu alimentación con las fases lunares.",
-        price: "$6.58",
-        image: "https://images.unsplash.com/photo-1532767153582-b1a0e5145009?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
-        link: "https://go.hotmart.com/B96903289W?dp=1",
-        category: "Salud y Fitness",
-        reviews: [
-            { rating: 5, comment: "Enfoque interesante sobre la alimentación. Muy efectivo para perder peso." },
-            { rating: 4, comment: "Conceptos innovadores y fáciles de seguir." }
-        ]
-    },
-    {
-        name: "Profesorado de Yoga",
-        description: "Formación completa para convertirte en profesor de yoga certificado.",
-        price: "$220,20",
-        image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
-        link: "https://go.hotmart.com/V96903295D?dp=1",
-        category: "Salud y Fitness",
-        reviews: [
-            { rating: 5, comment: "Curso muy completo y profesional. Altamente recomendado." },
-            { rating: 4, comment: "Excelente formación para futuros instructores de yoga." }
-        ]
-    },
- 
-    {
-        name: "GlowFlow Yoga",
-        description: "Descubre el poder transformador del yoga para tu cuerpo y mente.",
-        price: "$4.50",
-        image: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
-        link: "https://go.hotmart.com/B96903321K?dp=1",
-        category: "Salud y Fitness",
-        reviews: [
-            { rating: 5, comment: "Excelente programa de yoga. Me siento renovada." },
-            { rating: 4, comment: "Clases bien estructuradas y fáciles de seguir." }
-        ]
-    },
-    {
-        name: "Instructor de Yoga Kids",
-        description: "Aprende a enseñar yoga a niños de forma divertida y efectiva.",
-        price: "$9.58",
-        image: "https://static-media.hotmart.com/Pj46V7RaXSuMs0p3xN_kyQZMt4o=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/97e0448a-07f1-47c4-b1ee-8742a1d9ae3f/INSTRUCTORDEYOGAKIDS.png?w=920",
-        link: "https://go.hotmart.com/E96903335O?dp=1",
-        category: "Educación",
-        reviews: [
-            { rating: 5, comment: "Curso muy completo. Perfecto para trabajar con niños." },
-            { rating: 4, comment: "Buenas técnicas para mantener a los niños interesados." }
-        ]
-    },
-    {
-        name: "NUTRICION",
-        description: "Curso completo de nutrición para una vida saludable.",
-        price: "$16.58",
-        image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
-        link: "https://go.hotmart.com/M96903366L?dp=1",
-        category: "Salud y Fitness",
-        reviews: [
-            { rating: 5, comment: "Excelente curso. Aprendí mucho sobre alimentación saludable." },
-            { rating: 4, comment: "Información muy útil y bien explicada." }
-        ]
-    },
-    {
-        name: "NUTRICION DEPORTISTA",
-        description: "Aprende a alimentarte como un atleta profesional.",
-        price: "$3.40",
-        image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
-        link: "https://go.hotmart.com/H96903379P?dp=1",
-        category: "Salud y Fitness",
-        reviews: [
-            { rating: 5, comment: "Perfecto para deportistas. Mejoré mi rendimiento." },
-            { rating: 4, comment: "Buenas recomendaciones para la nutrición pre y post entrenamiento." }
-        ]
-    },
-    
-    {
-        name: "PACK BIENESTAR",
-        description: "Conjunto completo de recursos para mejorar tu bienestar físico y mental.",
-        price: "$33,92",
-        image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
-        link: "https://go.hotmart.com/O96903389U",
-        category: "Salud y Fitness",
-        reviews: [
-            { rating: 5, comment: "Pack muy completo. Vale cada centavo." },
-            { rating: 4, comment: "Excelente variedad de recursos para el bienestar integral." }
-        ]
-    },
-    {
-        name: "Bienestar Delgado",
-        description: "Programa holístico para perder peso de forma saludable y sostenible.",
-        price: "$3.22",
-        image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
-        link: "https://go.hotmart.com/B96903398P?dp=1",
-        category: "Salud y Fitness",
-        reviews: [
-            { rating: 5, comment: "Increíble programa. Perdí peso y gané energía." },
-            { rating: 4, comment: "Enfoque muy equilibrado para el control de peso." }
-        ]
-    },
-    {
-        name: "Curso de Idioma Corporal",
-        description: "Aprende a leer y utilizar el lenguaje corporal de manera efectiva.",
-        price: "$3.50",
-        image: "https://static-media.hotmart.com/chESvcTp5T-NkF5WvE5qaqjfANE=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_contents/5de2aea3-df0f-4dca-9f3a-c8babb60b5c4/cursoonline.png?w=920",
-        link: "https://go.hotmart.com/F96903407Y?dp=1",
-        category: "Desarrollo Personal",
-        reviews: [
-            { rating: 5, comment: "Fascinante curso. Muy útil en mi vida personal y profesional." },
-            { rating: 4, comment: "Buenas técnicas para mejorar la comunicación no verbal." }
-        ]
+        
+            name: "10 Fitness Recipes",
+            description: "A collection of 10 easy and delicious fitness recipes.",
+            price: "$3.50",
+            image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
+            link: "https://go.hotmart.com/J96903270L?dp=1",
+            category: "Health and Fitness",
+            reviews: [
+                { rating: 5, comment: "Quick and tasty recipes. Perfect for everyday." },
+                { rating: 4, comment: "Good variety of healthy options." }
+            ]
+        },
+        {
+            name: "Fitness for Busy Moms",
+            description: "Exercise and nutrition program for moms with little free time.",
+            price: "$3.40",
+            image: "https://static-media.hotmart.com/HF-cAKA8_mAzNtsRRWFWpQWJi3A=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/853ddf01-fe6a-49c7-aa7f-e38136f9ea3d/FITNESPARAMADRESOCUPADAS1.png?w=920",
+            link: "https://go.hotmart.com/C96903273V?dp=1",
+            category: "Health and Fitness",
+            reviews: [
+                { rating: 5, comment: "Perfect for moms who want to stay fit." },
+                { rating: 4, comment: "Short but effective routines. Very practical." }
+            ]
+        },
+        {
+            name: "Introduction to Sphero-dynamics for Adults",
+            description: "Learn the basics of sphero-dynamics to improve your health.",
+            price: "$67.95",
+            image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
+            link: "https://go.hotmart.com/G96903280D?dp=1",
+            category: "Health and Fitness",
+            reviews: [
+                { rating: 5, comment: "Excellent introduction to sphero-dynamics." },
+                { rating: 4, comment: "Very useful for improving posture and flexibility." }
+            ]
+        },
+        {
+            name: "The Moon Diet",
+            description: "Discover how to sync your diet with the lunar phases.",
+            price: "$6.58",
+            image: "https://images.unsplash.com/photo-1532767153582-b1a0e5145009?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
+            link: "https://go.hotmart.com/B96903289W?dp=1",
+            category: "Health and Fitness",
+            reviews: [
+                { rating: 5, comment: "Interesting approach to nutrition. Very effective for weight loss." },
+                { rating: 4, comment: "Innovative and easy-to-follow concepts." }
+            ]
+        },
+        {
+            name: "Yoga Teacher Training",
+            description: "Complete training to become a certified yoga teacher.",
+            price: "$220.20",
+            image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
+            link: "https://go.hotmart.com/V96903295D?dp=1",
+            category: "Health and Fitness",
+            reviews: [
+                { rating: 5, comment: "Very complete and professional course. Highly recommended." },
+                { rating: 4, comment: "Excellent training for future yoga instructors." }
+            ]
+        },
+        {
+            name: "GlowFlow Yoga",
+            description: "Discover the transformative power of yoga for your body and mind.",
+            price: "$4.50",
+            image: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
+            link: "https://go.hotmart.com/B96903321K?dp=1",
+            category: "Health and Fitness",
+            reviews: [
+                { rating: 5, comment: "Excellent yoga program. I feel rejuvenated." },
+                { rating: 4, comment: "Well-structured and easy-to-follow classes." }
+            ]
+        },
+        {
+            name: "Kids Yoga Instructor",
+            description: "Learn how to teach yoga to children in a fun and effective way.",
+            price: "$9.58",
+            image: "https://static-media.hotmart.com/Pj46V7RaXSuMs0p3xN_kyQZMt4o=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/97e0448a-07f1-47c4-b1ee-8742a1d9ae3f/INSTRUCTORDEYOGAKIDS.png?w=920",
+            link: "https://go.hotmart.com/E96903335O?dp=1",
+            category: "Education",
+            reviews: [
+                { rating: 5, comment: "Very complete course. Perfect for working with kids." },
+                { rating: 4, comment: "Good techniques to keep kids engaged." }
+            ]
+        },
+        {
+            name: "NUTRITION",
+            description: "Complete nutrition course for a healthy life.",
+            price: "$16.58",
+            image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
+            link: "https://go.hotmart.com/M96903366L?dp=1",
+            category: "Health and Fitness",
+            reviews: [
+                { rating: 5, comment: "Excellent course. I learned a lot about healthy eating." },
+                { rating: 4, comment: "Very useful information, well explained." }
+            ]
+        },
+        {
+            name: "SPORTS NUTRITION",
+            description: "Learn how to eat like a professional athlete.",
+            price: "$3.40",
+            image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
+            link: "https://go.hotmart.com/H96903379P?dp=1",
+            category: "Health and Fitness",
+            reviews: [
+                { rating: 5, comment: "Perfect for athletes. I improved my performance." },
+                { rating: 4, comment: "Good recommendations for pre- and post-training nutrition." }
+            ]
+        },
+        {
+            name: "WELLNESS PACK",
+            description: "Complete set of resources to improve your physical and mental well-being.",
+            price: "$33.92",
+            image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
+            link: "https://go.hotmart.com/O96903389U",
+            category: "Health and Fitness",
+            reviews: [
+                { rating: 5, comment: "Very complete pack. Worth every penny." },
+                { rating: 4, comment: "Excellent variety of resources for overall well-being." }
+            ]
+        },
+        {
+            name: "Slim Wellness",
+            description: "Holistic program for healthy and sustainable weight loss.",
+            price: "$3.22",
+            image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80",
+            link: "https://go.hotmart.com/B96903398P?dp=1",
+            category: "Health and Fitness",
+            reviews: [
+                { rating: 5, comment: "Amazing program. I lost weight and gained energy." },
+                { rating: 4, comment: "Very balanced approach to weight control." }
+            ]
+        },
+        {
+            name: "Body Language Course",
+            description: "Learn to read and use body language effectively.",
+            price: "$3.50",
+            image: "https://static-media.hotmart.com/chESvcTp5T-NkF5WvE5qaqjfANE=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_contents/5de2aea3-df0f-4dca-9f3a-c8babb60b5c4/cursoonline.png?w=920",
+            link: "https://go.hotmart.com/F96903407Y?dp=1",
+            category: "Personal Development",
+            reviews: [
+                { rating: 5, comment: "Fascinating course. Very useful in my personal and professional life." },
+                { rating: 4, comment: "Good techniques to improve non-verbal communication." }
+            ]
     }
 ];
 
